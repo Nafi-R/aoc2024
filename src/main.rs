@@ -23,8 +23,9 @@ fn main() {
     match day {
         1 => days::day1(),
         2 => days::day2(),
+        3 => days::day3(),
         _ => {
-            println!("{day} not found");
+            println!("Day {day} not found");
             process::exit(1);
         }
     }
